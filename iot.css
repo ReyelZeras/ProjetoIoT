@@ -55,4 +55,120 @@ body {
 }
 
  
- 
+ .container {
+  max-width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+
+.apresentacao {
+  text-align: center;
+  background-size: cover;
+  background-image: url("./team.png");
+  background-repeat: no-repeat;
+  min-height: 400px;
+  color: white;
+}
+
+.apresentacao p {
+  padding-top: 40px;
+  font-size: 20px;
+  font-family: Verdana;
+}
+
+.container .apresentacao__titulo {
+  padding-top: 50px;
+  font-size: 50px;
+  margin: 0;
+  font-family: Verdana;
+}
+
+.new {
+  padding-top: 30px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  height: 80px;
+  background-color: rgb(36, 36, 36);
+  color: #ffffff;
+}
+
+.new h1 {
+  margin: 0;
+  float: left;
+  font-family: Verdana;
+}
+
+.new .newsletter {
+  float: right;
+  font-family: Verdana;
+
+}
+
+.new input {
+  height: 25px;
+  width: 225px;
+  font-family: Verdana;
+
+}
+
+.btn-orange {
+  background-color: rgb(208,87,39);
+  color: #ffffff;
+  border: none;
+  width: 60px;
+  height: 30px;
+}
+
+
+
+
+.objetivos {
+  margin-top: 80px;
+}
+.img_objetivos{
+  padding-left: 155px;
+  height: 80px;
+  width: 80px;
+}
+
+.h1_objetivos{
+  text-align: center;
+  font-family: verdana;
+  font-size: 25px;
+}
+.p_objetivos{
+  text-align: center;
+  font-family: verdana;
+}
+
+.missao {
+  float: left;
+  width: 28%;
+  padding-left: 40px;
+  }
+.valores {
+  float: left;
+  width: 30%;
+  padding-left: 40px;
+}
+.visao {
+float: left;
+width: 30%;
+padding-left: 40px;
+}
+
+
+.creditos{
+  margin-top: 200px;
+  height: 60px;
+  background-color: rgb(208,87,39);
+}
+.creditos p{
+padding-top: 20px;
+  text-align: center;
+  font-family: verdana;
+  font-size: 15px;
+  color: white;
+}
